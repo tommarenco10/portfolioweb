@@ -1,0 +1,261 @@
+body{
+    margin:0; /* Para que empiece arriba */
+    background-color: #ecf2ef;
+    font-family: "Kanit",sans-serif;
+}
+
+
+
+.logo{
+    font-family: "Fascinate Inline",sans-serif;
+}
+
+/* Barra principal*/
+.barra_principal {
+    padding: 0;
+    height: 3.5rem;
+    width: 100%;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.5rem;
+    z-index: 1000;
+}
+
+.barra_principal a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1.5rem;
+}
+
+.barra_principal a:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+#nombre{
+    color: white;
+}
+
+#apellido{
+    color:black;
+}
+
+
+.izquierda{
+    float:left;
+}
+
+.derecha{
+    float:right;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+#logo_pagina{
+    height: 2rem;
+    width:2.5rem;
+}
+
+
+
+
+#presentacion {
+    margin-top: 10rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+#foto_perfil {
+    width: 20rem;
+}
+
+.texto-perfil {
+    max-width: 500px; 
+    margin-top: 1rem;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem;
+    margin-top: 1rem; 
+}
+
+
+
+#inicio{
+    margin-top: 10rem;
+}
+
+
+
+h2,h3,h4,h5{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+.icono {
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+
+hr{
+    color:black;
+    opacity: 0.5;
+}
+
+
+#container_conocimientos{
+    text-align: center;
+}
+.conocimientos{
+    margin-top:1rem;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    font-size: 5rem;
+}
+
+
+.fechas_cursada{
+    opacity: 0.5;
+    margin:0 auto;
+}
+
+div img{
+    width: 50rem;
+}
+
+
+#proyectos{
+    text-align: center;
+}
+
+
+.programa{
+    width:40rem;
+}
+
+.formacion{
+    background-color: purple
+}
+
+.lista_educacion{
+    margin: 0 auto;
+    width: 50rem;
+}
+
+proyectos p{
+    font-size: 10rem;
+}
+
+
+#contacto {
+    background-color: #f0f0f5;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    width: 80%;
+    margin: 3rem auto; /* Centramos la sección */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Añadimos una sombra suave */
+}
+
+#contacto h5 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #4a4a4a;
+}
+
+#contacto .field {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+#contacto a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    display: block;
+    margin: 1rem 0;
+}
+
+#contacto a:hover {
+    color: #4CAF50;
+}
+
+#contacto i {
+    margin-right: 0.5rem;
+    color: #4CAF50; /* Cambia el color de los iconos */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+form .field, textarea {
+    width: 80%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+form .btn-enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-enviar:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    #contacto {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    form .field, textarea {
+        width: 100%;
+    }
+}

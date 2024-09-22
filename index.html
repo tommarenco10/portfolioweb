@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Tomás Marenco Site</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"><!--  Importamos font awsome(Biblioteca de iconos)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
+    <script src="scripts.js" defer></script>
+</head>
+
+
+
+<body>
+    <section class="barra_principal">
+        <a id="logo"><span id="nombre">Tomás</span> <span id="apellido">Marenco</span></a>
+        <a href="#presentacion" class="derecha">Sobre mi</a>    
+        <a href="#container_conocimientos" class="derecha">Conocimientos</a>
+        <a href="#proyectos" class="derecha">Proyectos</a>
+        <a href="#contacto"class="derecha">Contacto</a>      
+    </section>
+   
+   
+    <section id="presentacion">
+        <div class="perfil">
+            <img id="foto_perfil" src="foto_circulo.png">
+            <div class="texto-perfil">
+                <h2>Hola mundo!</h2>
+                <p> Soy Tomás, un apasionado de la tecnología desde que era niño.
+                    Crecí jugando y aprendiendo en la computadora, y ahora, como estudiante de programación, estoy muy feliz de aprender, entender cómo funcionaban las cosas que disfruté y poder crear mis propias soluciones.
+                    Únete a mí en este viaje mientras comparto mis proyectos y descubrimientos tecnológicos.
+                    ¡Bienvenido a mi primera página!</p>
+                <div class="redes_sociales">
+                    <a href="www.linkedin.com/in/tomas-leonel-marenco" target="_blank" class="icono linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/tommarenco10" target="_blank" class="icono github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tommarenco/" target="_blank" class="icono twitter">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  
+    <hr>
+
+
+    <section id="container_conocimientos">
+        <h3>Mis conocimientos</h3>
+        <div class="conocimientos">
+            <i class="devicon-csharp-plain colored"></i>
+            <i class="devicon-cplusplus-plain colored"></i>
+            <i class="devicon-dotnetcore-plain colored"></i>
+            <br>
+            <i class="devicon-azuresqldatabase-plain colored"></i>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <br>
+            <i class="devicon-javascript-plain colored"></i>
+        </div>
+    </section>
+    <hr>
+
+    <section id="formacion">
+        <h3>Formación</h3>
+        <ul class="lista_educacion">
+        <li>Tecnico Electromecánico | I.J.S.F <span class="fechas_cursada">(2012-2018)</span></li><br>
+        <li>Estudiante de la carrera de moldes matrices y dipositivos | UTN-Gral Pacheco<span class="fechas_cursada">(2020-2022)</span></li><br>
+        <li>Estudiante de la carrera de Tecnicatura Universitaria en Programación | UTN-Gral Pacheco<span class="fechas_cursada">(2023-Cursando)</span></li><br>
+        </ul>
+    </section>
+    <hr>
+
+
+
+    <section id="proyectos" class="proyectos">
+        <h4>Proyectos</h4>
+
+        <img class="programa"src="app_universidad.png"><br>
+        <p>Programa de gestion de articulos desarollado para la materia de Programación III.</p><br><br>
+        <img class="programa" src="app_agc.png"><br><br>
+        <p>Programa de gestion utilizado para resolver la gestion de una fabrica.</p><br><br>
+        <img class="programa" src="app_uala.png"><br><br>
+        <p>Programa de gestion de archivos</p><br><br>
+
+    
+    </section>
+    <hr>
+
+    <section id="contacto" class="contenedor-form">
+        <div class="field">
+         <h5>Contacto</h5>
+         <br>
+         <a href="#"><i class="fa-solid fa-phone"></i> 1173687419</a>
+         <br>
+         <a href="#"><i class="fa-solid fa-envelope"></i> tommarenco10@gmail.com</a>
+         <br>
+         <a href="#"><i class="fa-solid fa-map-marked "></i> San Isidro,Buenos Aires,Argentina</a>
+         </div>
+ 
+         <form id="contactForm" >
+             <input type="text" name="name" placeholder="Ingresa tu nombre" class="field">
+             <input type="text" name="email" placeholder="Ingresa tu correo electronico" class="field">
+             <textarea name="messagefield" placeholder="Ingresa tu mensaje"></textarea>
+             <input type="submit" name="send" value="Enviar mensaje" class="btn-enviar">
+         </form>
+ 
+     </section>
+
+</body>
